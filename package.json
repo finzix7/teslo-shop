@@ -9,17 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@mui/x-data-grid": "^6.3.0",
+    "@paypal/react-paypal-js": "^7.8.3",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/formidable": "^2.0.6",
+    "@types/jsonwebtoken": "^9.0.2",
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.37.1",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
+    "formidable": "^2.1.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
     "next": "13.3.4",
+    "next-auth": "^4.22.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-slideshow-image": "^4.2.1",
+    "swr": "^2.1.5",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3"
   }
 }
